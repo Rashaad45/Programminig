@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KORA — Cloth, before it becomes anything</title>
+  <meta name="description" content="KORA is a small-batch clothing label making handloom cotton, linen and khadi essentials in India." />
+  <meta name="theme-color" content="#f6f1ea" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="is-loading">
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__word">
+      <span>K</span><span>O</span><span>R</span><span>A</span>
+    </div>
+    <div class="loader__meta">
+      <span>Loom warming up</span>
+      <span class="loader__count">000</span>
+    </div>
+  </div>
+
+  <!-- Living gradient -->
+  <div class="aura" aria-hidden="true">
+    <i class="aura__blob aura__blob--1"></i>
+    <i class="aura__blob aura__blob--2"></i>
+    <i class="aura__blob aura__blob--3"></i>
+    <i class="aura__blob aura__blob--4"></i>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Cursor -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <!-- Announcement -->
+  <div class="announce">
+    <div class="announce__track">
+      <span>Free shipping across India above ₹2,499</span><span>•</span>
+      <span>Drop 01 — only 180 pieces per style</span><span>•</span>
+      <span>Woven in Chanderi, Bhagalpur &amp; Tiruppur</span><span>•</span>
+      <span>Free shipping across India above ₹2,499</span><span>•</span>
+      <span>Drop 01 — only 180 pieces per style</span><span>•</span>
+      <span>Woven in Chanderi, Bhagalpur &amp; Tiruppur</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="nav">
+    <nav class="nav__left" aria-label="Primary">
+      <a href="#shop" class="nav__link" data-hover>Shop</a>
+      <a href="#lookbook" class="nav__link" data-hover>Lookbook</a>
+      <a href="#fabric" class="nav__link" data-hover>Fabric</a>
+      <a href="#story" class="nav__link" data-hover>Story</a>
+    </nav>
+    <a href="#top" class="nav__logo" aria-label="KORA home" data-hover>KORA</a>
+    <div class="nav__right">
+      <a href="#journal" class="nav__link nav__hide-sm" data-hover>Journal</a>
+      <button class="nav__link nav__bag" data-open-bag data-hover>
+        Bag <span class="nav__count">0</span>
+      </button>
+      <button class="nav__burger" aria-label="Menu" aria-expanded="false">
+        <i></i><i></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="#shop">Shop</a>
+    <a href="#lookbook">Lookbook</a>
+    <a href="#fabric">Fabric</a>
+    <a href="#story">Story</a>
+    <a href="#journal">Journal</a>
+  </div>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__meta">
+        <span>SS / 26</span>
+        <span>Drop 01</span>
+        <span class="hero__clock">IST <b data-clock>--:--</b></span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="line"><span class="word">Cloth,</span></span>
+        <span class="line line--indent"><span class="word"><em>before</em> it</span></span>
+        <span class="line"><span class="word">becomes</span></span>
+        <span class="line line--indent-2"><span class="word"><em>anything.</em></span></span>
+      </h1>
+
+      <div class="hero__aside">
+        <p>
+          Kora — Hindi for <em>unwashed, unbleached, untouched</em>.
+          We start from undyed handloom and stop the moment the garment
+          is honest. Seven styles. No seasons. Made in small runs.
+        </p>
+        <a href="#shop" class="btn btn--ink" data-magnetic data-hover>
+          <span>Shop Drop 01</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+
+      <div class="hero__stage" data-tilt>
+        <div class="hero__card hero__card--back"></div>
+        <div class="hero__card hero__card--front">
+          <div class="hero__garment" data-garment="overshirt" data-color="#c9a98a"></div>
+          <div class="hero__tag">
+            <span>Fig. 02</span>
+            <span>Loom Overshirt</span>
+            <span>240 GSM · Handloom</span>
+          </div>
+        </div>
+        <svg class="hero__badge" viewBox="0 0 120 120" aria-hidden="true">
+          <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+          <text><textPath href="#circ">made slowly · made in india · drop 01 ·</textPath></text>
+        </svg>
+      </div>
+
+      <a href="#manifesto" class="hero__scroll" data-hover>
+        <span>Scroll</span><i></i>
+      </a>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__row" data-marquee="1">
+        <span>Handloom</span><em>✺</em><span><i>Undyed</i></span><em>✺</em><span>Linen</span><em>✺</em><span><i>Khadi</i></span><em>✺</em><span>Small-batch</span><em>✺</em>
+        <span>Handloom</span><em>✺</em><span><i>Undyed</i></span><em>✺</em><span>Linen</span><em>✺</em><span><i>Khadi</i></span><em>✺</em><span>Small-batch</span><em>✺</em>
+      </div>
+    </section>
+
+    <!-- Manifesto (scroll-scrubbed) -->
+    <section class="manifesto" id="manifesto">
+      <span class="eyebrow">( 01 ) — What we believe</span>
+      <p class="manifesto__text" data-scrub>
+        We think most clothes are overdesigned and undermade. So we reversed it.
+        Fewer seams, better thread, fabric you can hear when you fold it.
+        Every piece is cut from cloth woven on handlooms within four hundred
+        kilometres of where it is stitched — and every run stops at one hundred and eighty.
+      </p>
+      <div class="manifesto__stats">
+        <div><b data-count="180">0</b><span>pieces per style</span></div>
+        <div><b data-count="14">0</b><span>weavers in the collective</span></div>
+        <div><b data-count="0">0</b><span>synthetic fibres used</span></div>
+      </div>
+    </section>
+
+    <!-- Shop -->
+    <section class="shop" id="shop">
+      <div class="shop__head">
+        <div>
+          <span class="eyebrow">( 02 ) — The drop</span>
+          <h2 class="display">Seven pieces.<br /><em>Worn for years.</em></h2>
+        </div>
+        <div class="filters" role="tablist" aria-label="Filter products">
+          <button class="chip is-active" data-filter="all" data-hover>All <sup>07</sup></button>
+          <button class="chip" data-filter="women" data-hover>Women</button>
+          <button class="chip" data-filter="men" data-hover>Men</button>
+          <button class="chip" data-filter="unisex" data-hover>Unisex</button>
+        </div>
+      </div>
+      <div class="grid" data-grid></div>
+    </section>
+
+    <!-- Horizontal lookbook rail -->
+    <section class="rail" id="lookbook">
+      <div class="rail__sticky">
+        <div class="rail__intro">
+          <span class="eyebrow">( 03 ) — Lookbook</span>
+          <h2 class="display">A week<br />in <em>Kora.</em></h2>
+          <p>Seven days, seven ways, one small wardrobe. Keep scrolling.</p>
+        </div>
+        <div class="rail__track" data-rail></div>
+        <div class="rail__progress"><span>Mon</span><i></i><span>Sun</span></div>
+      </div>
+    </section>
+
+    <!-- Fabric index -->
+    <section class="fabric" id="fabric">
+      <div class="fabric__head">
+        <span class="eyebrow">( 04 ) — Fabric index</span>
+        <h2 class="display">Touch it<br /><em>with your cursor.</em></h2>
+      </div>
+      <div class="fabric__list">
+        <article class="swatch" data-hover data-cursor="Feel">
+          <div class="swatch__weave swatch__weave--handloom"></div>
+          <div class="swatch__info">
+            <span class="swatch__no">F—01</span>
+            <h3>Handloom cotton</h3>
+            <p>Plain weave, slub yarn. Softens with every wash; never the same twice.</p>
+            <dl><dt>Weight</dt><dd>240 gsm</dd><dt>Origin</dt><dd>Bhagalpur, Bihar</dd></dl>
+          </div>
+        </article>
+        <article class="swatch" data-hover data-cursor="Feel">
+          <div class="swatch__weave swatch__weave--linen"></div>
+          <div class="swatch__info">
+            <span class="swatch__no">F—02</span>
+            <h3>Stonewashed linen</h3>
+            <p>European flax, washed with stones in Tiruppur to take the stiffness out.</p>
+            <dl><dt>Weight</dt><dd>185 gsm</dd><dt>Origin</dt><dd>Tiruppur, Tamil Nadu</dd></dl>
+          </div>
+        </article>
+        <article class="swatch" data-hover data-cursor="Feel">
+          <div class="swatch__weave swatch__weave--khadi"></div>
+          <div class="swatch__info">
+            <span class="swatch__no">F—03</span>
+            <h3>Hand-spun khadi</h3>
+            <p>Spun on a charkha, woven by hand. It breathes like nothing a machine makes.</p>
+            <dl><dt>Weight</dt><dd>160 gsm</dd><dt>Origin</dt><dd>Chanderi, Madhya Pradesh</dd></dl>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Story / index list with hover preview -->
+    <section class="story" id="story">
+      <div class="story__head">
+        <span class="eyebrow">( 05 ) — The people</span>
+        <h2 class="display">Who makes<br /><em>your shirt.</em></h2>
+      </div>
+      <ul class="people" data-people>
+        <li data-color="#e8c9b4" data-garment="kurta" data-hover data-cursor="Read">
+          <span class="people__no">01</span>
+          <span class="people__name">Rehana Bano</span>
+          <span class="people__role">Master weaver</span>
+          <span class="people__place">Chanderi</span>
+        </li>
+        <li data-color="#cfd6c4" data-garment="trouser" data-hover data-cursor="Read">
+          <span class="people__no">02</span>
+          <span class="people__name">Suresh Pandian</span>
+          <span class="people__role">Pattern cutter</span>
+          <span class="people__place">Tiruppur</span>
+        </li>
+        <li data-color="#d8cfe8" data-garment="dress" data-hover data-cursor="Read">
+          <span class="people__no">03</span>
+          <span class="people__name">Anjali Kumari</span>
+          <span class="people__role">Natural dyer</span>
+          <span class="people__place">Bhagalpur</span>
+        </li>
+        <li data-color="#f0dcae" data-garment="tee" data-hover data-cursor="Read">
+          <span class="people__no">04</span>
+          <span class="people__name">Mohammed Imran</span>
+          <span class="people__role">Finishing &amp; QC</span>
+          <span class="people__place">Tiruppur</span>
+        </li>
+      </ul>
+      <div class="people__float" aria-hidden="true"><div></div></div>
+    </section>
+
+    <!-- Journal -->
+    <section class="journal" id="journal">
+      <div class="journal__card">
+        <span class="eyebrow">( 06 ) — Letters from the loom</span>
+        <h2 class="display">One email when<br />a drop <em>lands.</em> That’s it.</h2>
+        <form class="signup" novalidate>
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" type="email" placeholder="your@email.com" autocomplete="email" required />
+          <button type="submit" class="btn btn--ink" data-magnetic data-hover>
+            <span>Join the list</span>
+          </button>
+          <p class="signup__msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__cols">
+      <div>
+        <h4>Shop</h4>
+        <a href="#shop">Women</a><a href="#shop">Men</a><a href="#shop">Unisex</a><a href="#shop">Gift card</a>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <a href="#">Shipping</a><a href="#">Returns</a><a href="#">Size guide</a><a href="#">Care</a>
+      </div>
+      <div>
+        <h4>Studio</h4>
+        <a href="#story">About</a><a href="#fabric">Fabric</a><a href="#">Stockists</a><a href="#">Careers</a>
+      </div>
+      <div>
+        <h4>Say hello</h4>
+        <a href="mailto:hello@kora.in">hello@kora.in</a><a href="#">Instagram</a><a href="#">Pinterest</a>
+      </div>
+    </div>
+    <div class="footer__mark" aria-hidden="true">
+      <span>K</span><span>O</span><span>R</span><span>A</span>
+    </div>
+    <div class="footer__base">
+      <span>© <span data-year></span> Kora Clothing Pvt. Ltd.</span>
+      <span>Made slowly in India</span>
+      <a href="#top" data-hover>Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Quick view -->
+  <div class="qv" aria-hidden="true">
+    <div class="qv__backdrop" data-close-qv></div>
+    <div class="qv__panel" role="dialog" aria-modal="true" aria-labelledby="qv-title">
+      <button class="qv__close" data-close-qv aria-label="Close" data-hover>Close ✕</button>
+      <div class="qv__media"><div class="qv__garment"></div></div>
+      <div class="qv__body">
+        <span class="qv__fig"></span>
+        <h3 id="qv-title" class="qv__title"></h3>
+        <p class="qv__price"></p>
+        <p class="qv__desc"></p>
+        <div class="qv__group">
+          <span class="qv__label">Colour — <b class="qv__colorname"></b></span>
+          <div class="qv__colors"></div>
+        </div>
+        <div class="qv__group">
+          <span class="qv__label">Size</span>
+          <div class="qv__sizes"></div>
+        </div>
+        <button class="btn btn--ink btn--block qv__add" data-hover><span>Add to bag</span></button>
+        <ul class="qv__specs"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bag drawer -->
+  <aside class="bag" aria-hidden="true" aria-label="Shopping bag">
+    <div class="bag__backdrop" data-close-bag></div>
+    <div class="bag__panel">
+      <div class="bag__head">
+        <h3>Your bag <sup class="bag__count">0</sup></h3>
+        <button data-close-bag data-hover>Close ✕</button>
+      </div>
+      <div class="bag__ship">
+        <span class="bag__ship-text">Add ₹2,499 for free shipping</span>
+        <div class="bag__ship-bar"><i></i></div>
+      </div>
+      <ul class="bag__items"></ul>
+      <div class="bag__empty">
+        <p>Nothing here yet.</p>
+        <a href="#shop" data-close-bag class="link-u">Browse the drop</a>
+      </div>
+      <div class="bag__foot">
+        <div class="bag__row"><span>Subtotal</span><b class="bag__total">₹0</b></div>
+        <button class="btn btn--ink btn--block" data-hover><span>Checkout</span></button>
+        <p class="bag__note">Taxes included. Ships in 2–4 days.</p>
+      </div>
+    </div>
+  </aside>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/garments.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
